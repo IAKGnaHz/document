@@ -20,7 +20,7 @@ host_key_checking = False # 取消注释
 
 ## install
 
-虽然可以很简单的直接使用 [yum 安装](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#latest-release-via-dnf-or-yum)，但由于 ansible 是一个 python 编写的工具，这样就会导致 ansible 依赖于全局的 python，当全局依赖发生变化的时候可能导致 ansible 出现冲突或潜在的安全问题，所以需要隔离 ansible 与其他应用。
+虽然可以很简单的直接使用 [yum 安装](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#latest-release-via-dnf-or-yum)，但由于 ansible 是一个 python 编写的工具，这样就会导致 ansible 依赖于全局的 python，当全局依赖发生变化的时候可能导致 ansible 出现冲突或潜在的安全问题，所以需要隔离 ansible 与其他应用。hhh 
 
 ### 1. 关闭限制
 
