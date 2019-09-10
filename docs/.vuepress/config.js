@@ -15,7 +15,7 @@ module.exports = {
   plugins: pluginConf,
   themeConfig: {
     lastUpdated: '上次更新',
-    repo: 'shanyuhai123/documents',
+    repo: 'iakgnahz/documents',
     editLinks: true,
     editLinkText: '编辑文档！',
     docsDir: 'docs',
